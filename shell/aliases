@@ -1,0 +1,7 @@
+alias soi='cd /opt/progeny/soi'
+alias bs='ssh -Y luke@192.168.44.140'
+alias bp='ssh -Y biometrics@192.168.44.143'
+alias bq='ssh -Y luke@192.168.44.206'
+alias bn='ssh -Y lparadis@172.16.0.38'
+
+alias ls='ls -GpF'
