@@ -2,10 +2,10 @@
 
 # install vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-echo "so ~/dev/dotfiles/vim/vimrc.vim" > ~/.vimrc
+echo "so ~/projects/dotfiles/vim/vimrc.vim" > ~/.vimrc
 vim -c "PlugInstall" -c "qa"
 
 cp shell/inputrc ~/.inputrc
 
-echo "source ~/dev/dotfiles/shell/aliases" >> ~/.bash_profile
-echo "source ~/dev/dotfiles/shell/bash_profile" >> ~/.bash_profile
+echo "source ~/projects/dotfiles/shell/aliases" >> ~/.bash_profile
+echo "source ~/projects/dotfiles/shell/bash_profile" >> ~/.bash_profile

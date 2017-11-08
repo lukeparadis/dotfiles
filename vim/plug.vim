@@ -10,7 +10,7 @@ Plug 'Shougo/neocomplete.vim'
 Plug 'scrooloose/nerdtree'
 
 " linting on the fly
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
 
 " fuzzy file/buffer search
 Plug 'ctrlpvim/ctrlp.vim'
