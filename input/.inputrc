@@ -1,6 +1,7 @@
 set bell-style none
 set editing-mode vi
 set keymap vi
+set convert-meta on
 
 $if mode=vi
 	set keymap vi-command

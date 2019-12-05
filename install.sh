@@ -1,11 +1,13 @@
 #!/bin/bash
 
-# install vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-echo "so ~/projects/dotfiles/vim/vimrc.vim" > ~/.vimrc
-vim -c "PlugInstall" -c "qa"
+# install anaconda first
+mkdir ~/.conf
 
-cp shell/inputrc ~/.inputrc
+brew install tmux zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-echo "source ~/projects/dotfiles/shell/aliases" >> ~/.bash_profile
-echo "source ~/projects/dotfiles/shell/bash_profile" >> ~/.bash_profile
+eval "$(HOME/anaconda3/bin/conda shell.zsh hook)"
+conda init zsh
+
+# start up ipython to initialize default profile
+ipython -c ""
