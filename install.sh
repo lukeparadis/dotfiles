@@ -11,3 +11,12 @@ conda init zsh
 
 # start up ipython to initialize default profile
 ipython -c ""
+
+# make sure this is created, not a symlink 
+mkdir ~/.shell
+
+# install VimPlug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+mkdir -p ~/.vim/undo
+mkdir -p ~/.vim/
