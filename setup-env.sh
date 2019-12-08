@@ -19,4 +19,4 @@ conda init zsh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # install dotfiles
-stow --no-folding input ipython shell tmux vim zsh
+stow --no-folding input ipython shell tmux vim zsh screen
