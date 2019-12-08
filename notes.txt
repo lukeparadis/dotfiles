@@ -2,8 +2,9 @@ notes
     install conda first, default is now to ~/opt/anaconda3
     ipython must be run before stow ipython to ensure creation of default profile
     create at least one conda env before running update_conda_aliases
-
 todo
     any additional ipython startup stuff
-    update .tmux.conf
-    have ipython import personal common libs
+    
+    python
+        list of full files in a path
+        
