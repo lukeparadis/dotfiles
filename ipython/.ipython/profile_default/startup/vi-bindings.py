@@ -7,7 +7,7 @@ ip = get_ipython()
 
 def switch_to_navigation_mode(event):
     vi_state = event.cli.vi_state
-    vi_state.reset(InputMode.NAVIGATION)
+    vi_state.input_mode = InputMode.NAVIGATION
 
 if getattr(ip, 'pt_app'):
     registry = ip.pt_app.key_bindings
